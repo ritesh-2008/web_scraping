@@ -35,4 +35,4 @@ data={
 }
 
 df=pd.DataFrame(data)
-print(df.to_sql)
+print(df.to_string(index=True))
